@@ -17,13 +17,6 @@ if (scoreJhon > scoreMike && scoreJhon > scoreMary){
 }
 
 
-
-
-
-
-
-
-
 /*
 if (scoreJhon > scoreMike){
     console.log(" Jhon\s team wins with " + scoreJhon + " points ");
