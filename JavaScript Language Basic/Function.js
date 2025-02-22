@@ -28,3 +28,11 @@ yearUntilRetirement(2006, "Luxmi");
 yearUntilRetirement(2005, "Lux");
 yearUntilRetirement(1958, "man");
 yearUntilRetirement(2000, "aman");
+
+function myFunction(){
+    console.log("welcome to apna college");
+    console.log("we are learning JS");
+}
+
+myFunction();
+myFunction();
