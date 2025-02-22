@@ -20,3 +20,5 @@ var whatDoYouDo = function(job, firstName){
 console.log(whatDoYouDo("designer", "Jhon"));
 console.log(whatDoYouDo("teacher", "Mark"));
 console.log(whatDoYouDo("driver", "Luxmi"));
+
+//these are function expression
