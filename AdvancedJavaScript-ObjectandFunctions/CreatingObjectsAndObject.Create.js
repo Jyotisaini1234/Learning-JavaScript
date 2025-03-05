@@ -15,7 +15,7 @@ var jane = Object.create(personProto,
     {
         name:{ value: 'Jane'},
         yearOfBirth: { value: 1969},
-        job: { value: 'designer'}
+        job: { valuen: 'designer'}
     }
 );
 
