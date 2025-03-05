@@ -11,7 +11,7 @@
 }
 
 body {
-    background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62,20,20,0.4)), url(black.jpg);
+    /* background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62,20,20,0.4)), ; */
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -41,7 +41,7 @@ body {
        padding: 100px;
 }
 
-  Players 
+   
 
 .player-name {
     font-size: 40px;
@@ -105,11 +105,11 @@ button {
    text-transform: uppercase;
    cursor: pointer;
    font-weight: 300;
-   transition: background-color 0.3s, color;
+   transition: red 0.3s, color;
 }
 
-button:hover { font-weight: 600;}
-button:hover i { margin-left: 20px;}
+button:hover { font-weight: 600;
+margin-left: 20px;}
 
 button:focus {
     outline: none;
@@ -123,15 +123,17 @@ i {
     line-height: 1;
     vertical-align: text-top;
     margin-top: -4px;
-    transform: margin 0.3s;
+    transform: 0.2 0.3s;
 
 }
 
-.btn-new { top: 45px;}
-.btn-roll {top: 403pxpx;}
+.btn-new { top: 50px;}
+.btn-roll {top: 403px;}
 .btn-hold {top: 467px;}
 
 .dice {
+    width: 50px;
+    height: 50px;
     position: absolute;
     left: 50%;
     top: 178px;
