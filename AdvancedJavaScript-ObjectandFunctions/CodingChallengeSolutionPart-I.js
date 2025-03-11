@@ -138,6 +138,6 @@ if (answer !== 'exit') {
 }
 
 
-Question();
+nextQuestion();
 
  

@@ -11,7 +11,6 @@
 }
 
 body {
-    /* background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62,20,20,0.4)), ; */
     background-size: cover;
     background-position: center;
     font-family: Lato;
@@ -75,11 +74,16 @@ body {
 
 .player-current-box {
     background-color: #eb4d4d;
-    color: #fff;
     width: 40%;
     margin: 0 auto;
+    height: 50px;
+    border-radius: 5px;
+    
+    font-size: 30px;
+    font-weight: bold;
     padding: 12px;
     text-align: center;
+    background-color: red;
 }
 
 .player-current-label {
@@ -87,9 +91,13 @@ body {
      margin-bottom: 10px;
      font-size: 12px;
      color: #222;
+
+
+
 } 
 .player-current-score {
        font-size: 30px;
+
 }
 
 button {
