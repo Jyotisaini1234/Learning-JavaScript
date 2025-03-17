@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table ;
+    clear: both;
+}
+
+body{
+    color: #555;
+    font-family: Open Sans;
+    font-size: 16px;
+    position: relative;
+    height: 100vh;
+    font-weight: 400;
+
+}
+
+.right{ float: right}
+.red { color: #FF5049 !important;}
+.red-focus:focus{ border: 1px solid #FF5049 !important;}
+
+
+
+
+.top {
+
+
+height: 40vh;
+background: linear-gradient(rgba(181, 181, 181, 0.35), rgba(89, 86, 86, 0.35)), 
+            url('https://t3.ftcdn.net/jpg/00/84/22/12/360_F_84221257_rfefWUrMTssPWFD16GSArJaLodR3sO8a.jpg');
+background-size: cover;
+width:100%;
+background-repeat: no-repeat;
+background-position: center;
+position: relative;
+color: white;
+
+}
+
+.budget {
+    position: absolute;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.budget__title{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+.budget__value{
+    font-weight: 300;
+    font-size: 46px;
+    text-align: center;
+    margin-bottom: 25px;
+    letter-spacing: 2px;
+}
+.budget__income{
+    padding: 0.5rem;
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    background: rgb(41, 201, 203);
+    justify-content: space-between;
+    margin: 1rem;
+    color: black;
+}
+
+.right{
+    color: white;
+    display: flex;
+    font-size: 1.2rem;
+    margin-left: 6rem;
+    align-items: center;
+    
+}
+
+.budget__expenses{
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+    background: rgb(203, 41, 127);
+    justify-content: space-between;
+    margin: 1rem;
+    color: black;
+    margin-left:none;
+    padding: 0.5rem;
+}
+.budget__expense{
+    color: aqua;
+}
+
+.bottom{
+ 
+    width: 100%;
+    height: 30vh;
+}
+
+.add{
+    display: block;
+  
+}
+.add__container{
+    border: 2px solid black;
+    justify-content: center;
+    display: flex;
+    padding: 1rem;
+    background: rgba(242, 214, 228, 0.73);
+}
+.add__type{
+    width: 5rem;
+    font-size: 1.5rem;
+    height: 3rem;
+    margin: 1rem;
+    border-radius: 0.2rem;
+    border-color:grey;
+}
+
+.add__description{
+    font-size: 1.2rem;
+    align-items: center;
+    background: white;
+    padding: 0.5rem;
+    height: 3rem;
+    margin: 1rem;
+    justify-content: center;
+    border-radius: 0.2rem;
+    width: 30rem;
+    border-color:grey;
+}
+.add__value{
+    height: 3rem;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 0.2rem;
+    width: 10rem;
+    border-color:grey;
+}
+.container{
+    border: 2px solid black;
+    display: flex;
+    height: 25vh;
+    justify-content: space-evenly;
+    margin: 1rem;
+    height: 40vh;
+}
+.income{
+    font-size: 20px;
+    font-weight: bold;
+    color: aqua;
+    
+}
+
+.expenses{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FF5049;
+}

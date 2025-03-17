@@ -3,37 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="Budget.css">
-    <title>Pig Game</title>
+    <link type="text/css" rel="stylesheet" href="Budget.css">
+    <title>Budget App</title>
 </head>
 <body>
-<div class="wrapper clearfix">
-    <div class="player-0-panel active">
-        <div class="player-name" id="name-0">Player 1</div>
-        <div class="player-score" id="score-0">43</div>
-        <div class="Player-current-box">
-          <div class="player-current-label">Current</div>
-           <div class="player-current-score" id="current-0">11</div>
-        </div> 
+<div class="top">
+    <div class="budget">
+        <div class="budget__title">
+        Available Budget in <span class="budget__title--month">March 2025</span>:
     </div>
-    <div class="player-1-panel">
-        <div class="player-name" id="name-1">Player 2</div>
-        <div class="player-score" id="score-1">72</div>
-        <div class="Player-current-box">
-            <div class="player-current-score" id="current-1">0</div>
-           <div class="player-current-label">Current</div>
+
+    <div class = "budget__value">+ 2,345.64</div>
+
+        <div class="budget__income clearfix">
+        <div class="budget__income--text">Income</div>
+        <div class="right">
+        <div class="budget__income--value">+ 4,300.00 </div>
+        <div class="budget__income--percentage">&nbsp;</div>
         </div>
     </div>
     
-   <button class="btn-new"><i class="ion-ios-plus-outline"></i>New game</button>
-   <button class="btn-roll"><i class="ion-ios-loop"></i>Roll Dice</button>
-   <button class="btn-hold"><i class="ion-ios-download-outline"></i>Hold</button>
-   <input type="text"placeholder="Final score"class="final-score">
-   <img src="./dice-5.jpg" alt="Dice" class="dice" id="dice-1">
-   <img src="./dice-5.jpg" alt="Dice" class="dice" id="dice-2">
-   
+   <div class="budget__expenses clearfix">
+    <div class="budget__expenses--text">Expenses</div>
+    <div class="right clearfix">
+        <div class="budget__expenses--value">- 1,954.36</div>
+        <div class="budget__expense--percentage">45%</div>
+    </div>
+   </div>
 </div>
-   <!--<script src="app.js"></script>-->
+</div>
+
+<div class="bottom">
+    <div class="add">
+        <div class="add__container">
+            <select class="add__type">
+                <option value="inc" selected>+</option>
+                <option value="exp">-</option>
+            </select>
+            <input type="text" class="add__description" placeholder="Add description">
+            <input type="number" class="add__value" placeholder="Value">
+            <button class="add_btn"><i class="ion-ios-checkmark-outline"></i></button>
+        </div>
+    </div>
+    <div class="container clearfix">
+        <div class="income">
+            <h2 class="icome__title">Income</h2>
+            <div class="income__list">
+        </div>
+    </div>
+
+
+<div class="expenses">
+    <h2 class="expenses__title">Expenses</h2>
+    <div class="expenses__list">
+    </div>
+</div>
+   </div>
+  </div>
+        </div>
+     </div>
    <script src="Budget.js"></script>
 </body>
 </html>
