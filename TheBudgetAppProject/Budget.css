@@ -95,8 +95,12 @@ color: white;
     margin-left:none;
     padding: 0.5rem;
 }
-.budget__expense{
-    color: aqua;
+.budget__expenses--percentage{
+    color: orange;
+    margin-left: 1rem;
+    border: 1px solid white;
+    border-radius:6px;
+    color: aliceblue;
 }
 
 .bottom{
@@ -164,4 +168,19 @@ color: white;
     font-size: 20px;
     font-weight: bold;
     color: #FF5049;
+}
+
+
+.add_btn{
+    margin-top: 1.5rem;
+    width: 30px;
+    height: 30px;
+    background: transparent;
+    border: none;
+}
+ img {
+    background: transparent;
+    width: 40px;
+    height: 40px;
+
 }
