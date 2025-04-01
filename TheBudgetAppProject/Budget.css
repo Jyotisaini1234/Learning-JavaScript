@@ -60,7 +60,7 @@ color: white;
 .budget__value{
     font-weight: 300;
     font-size: 46px;
-    text-align: center;
+    text-align:center;
     margin-bottom: 25px;
     letter-spacing: 2px;
 }
@@ -76,12 +76,15 @@ color: white;
 }
 
 .right{
-    color: white;
-    display: flex;
+    color: black;
+    display: inline-block;
     font-size: 1.2rem;
     margin-left: 6rem;
     align-items: center;
     
+}
+.income__list{
+    border:#555
 }
 
 .budget__expenses{
